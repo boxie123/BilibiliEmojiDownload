@@ -1,4 +1,4 @@
-# bilibiliemojidownload
+# BilibiliEmojiDownload
 
 b站装扮表情包下载（自用）
 
@@ -34,15 +34,9 @@ b站装扮表情包下载（自用）
 
 ### 运行 golang 部分
 
-1. 打开上一步生成的 `index.json`，找到你想要的表情包的 `id`（基本根据上传时间排序，名字由up自己命名，可能是up名、装扮名、收藏集名、也可能是卡池名，请多尝试几种搜索关键词）；
+1. 打开上一步生成的 `index.json`，找到你想要的表情包的 `id`（基本根据上传时间排序，名字由up自己命名，可能是up名、装扮名、收藏集名、也可能是卡池名，请多尝试几种搜索关键词。**也可根据我另一个项目[BilibiliSuitDownload](https://github.com/boxie123/BilibiliSuitDownload)中提供的`item_id`精确搜索**）；
 2. 下载`release`中的`exe`文件并运行，或直接运行：`go run ./main.go`；
 3. 输入第2步中获取的id，并回车运行，等待下载结束。
-
-## FAQ
-
-**Q**: `index.json`中的`item`项是做什么的？
-
-**A**: 是之后更新（如果我有时间）会用到的妙妙工具
 
 ## 声明
 
