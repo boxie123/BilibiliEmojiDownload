@@ -1,35 +1,20 @@
 package main
 
 import (
-	"encoding/json"
 	"fmt"
 	"github.com/boxie123/BilibiliEmojiDownload/utils"
-	"os"
 )
 
 func main() {
-	if len(os.Args) < 2 {
-		fmt.Println("Error: No json file provided")
-		fmt.Scanln()
-		return
-	}
-
-	filename := os.Args[1]
-	data, err := os.ReadFile(filename)
+	fmt.Println("想要下载的表情包id(输入错误默认千恋万花动态表情包)：")
+	var emojiID int
+	_, err := fmt.Scanln(&emojiID)
 	if err != nil {
-		fmt.Printf("Error reading file: %v\n", err)
-		return
+		emojiID = 7563
 	}
-
-	var emoji utils.Emoji
-	err = json.Unmarshal(data, &emoji)
+	emoji, err := utils.GetEmojiInfo(emojiID)
 	if err != nil {
-		fmt.Printf("Error parsing JSON: %v\n", err)
-		return
+		fmt.Errorf("获取表情信息失败：%v", err)
 	}
-
-	// Output the parsed data for validation
-	// fmt.Printf("Read JSON data: %+v\n", emoji)
-
 	utils.DownloadEmoji(emoji)
 }

@@ -1,6 +1,7 @@
 package utils
 
 import (
+	"encoding/json"
 	"fmt"
 	"io"
 	"log"
@@ -11,7 +12,36 @@ import (
 	"sync"
 )
 
-func analyzeEmoji(emoji Emoji) []DownloadInfo {
+func GetEmojiInfo(itemID int) (*Emoji, error) {
+	baseUrl := fmt.Sprintf("https://api.bilibili.com/bapis/main.community.interface.emote.EmoteService/PackageDetail?id=%d", itemID)
+
+	client := &http.Client{}
+	req, err := http.NewRequest("GET", baseUrl, nil)
+	if err != nil {
+		return nil, err
+	}
+	req.Header.Add("User-Agent", "Mozilla/5.0 (iPhone; CPU iPhone OS 18_1_1 like Mac OS X) AppleWebKit/619.2.8.10.9 (KHTML, like Gecko) Mobile/22B91 BiliApp/83000100 os/ios model/iPhone 13 mobi_app/iphone build/83000100 osVer/18.1.1 network/2 channel/AppStore Buvid/YF4BDFF823E8BA68449892FA07B6F4028355 c_locale/zh-Hans_CN s_locale/zh-Hans_CN sessionID/11bb9479 disable_rcmd/0")
+
+	resp, err := client.Do(req)
+	if err != nil {
+		return nil, err
+	}
+	defer resp.Body.Close()
+
+	if resp.StatusCode != http.StatusOK {
+		return nil, fmt.Errorf("received non-200 status code: %d", resp.StatusCode)
+	}
+
+	emojiInfoResp := Emoji{}
+	err = json.NewDecoder(resp.Body).Decode(&emojiInfoResp)
+	if err != nil {
+		return nil, err
+	}
+
+	return &emojiInfoResp, nil
+}
+
+func analyzeEmoji(emoji *Emoji) []DownloadInfo {
 	var diList []DownloadInfo
 	pkg := emoji.Data.Package
 	invalidCharacterRegex := regexp.MustCompile(`[/:*?"<>|]`)
@@ -38,7 +68,7 @@ func analyzeEmoji(emoji Emoji) []DownloadInfo {
 	return diList
 }
 
-func DownloadEmoji(emoji Emoji) {
+func DownloadEmoji(emoji *Emoji) {
 	downloadInfos := analyzeEmoji(emoji)
 
 	var wg sync.WaitGroup

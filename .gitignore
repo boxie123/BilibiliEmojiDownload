@@ -1,4 +1,17 @@
+# python generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# venv
+.venv
+
+# custon
 *.exe
 *.json
+!index.json
 data/
 .idea/
