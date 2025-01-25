@@ -22,10 +22,17 @@ func analyzeEmoji(emoji Emoji) []DownloadInfo {
 		FileName: "cover.png",
 	})
 	for _, e := range pkg.Emotes {
+		if e.GifURL != "" {
+			diList = append(diList, DownloadInfo{
+				URL:      e.GifURL,
+				PkgName:  fmt.Sprintf("%s\\gif", pkgName),
+				FileName: invalidCharacterRegex.ReplaceAllString(fmt.Sprintf("%s_%s.gif", pkgName, e.Meta.Alias), "_"),
+			})
+		}
 		diList = append(diList, DownloadInfo{
-			URL:      e.GifURL,
-			PkgName:  pkgName,
-			FileName: invalidCharacterRegex.ReplaceAllString(fmt.Sprintf("%s_%s.gif", pkgName, e.Meta.Alias), "_"),
+			URL:      e.URL,
+			PkgName:  fmt.Sprintf("%s\\png", pkgName),
+			FileName: invalidCharacterRegex.ReplaceAllString(fmt.Sprintf("%s_%s.png", pkgName, e.Meta.Alias), "_"),
 		})
 	}
 	return diList

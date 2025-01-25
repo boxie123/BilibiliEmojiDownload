@@ -29,7 +29,7 @@ func main() {
 	}
 
 	// Output the parsed data for validation
-	fmt.Printf("Read JSON data: %+v\n", emoji)
+	// fmt.Printf("Read JSON data: %+v\n", emoji)
 
 	utils.DownloadEmoji(emoji)
 }
