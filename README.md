@@ -12,7 +12,7 @@ b站装扮表情包下载（自用）
 ### 搭建 python 环境并生成索引
 
 > [!NOTE]
-> 本项目中包含`index.json`文件（于2025/01/25生成），若其中包含你想要的表情包信息，则可忽视本小节，并跳至[golang部分](#运行-golang-部分)
+> 本项目中包含`index.json`文件（于每天00:05自动生成），若其中包含你想要的表情包信息，则可忽视本小节，并跳至[golang部分](#运行-golang-部分)
 
 1. 需要当前用户已正确安装`python`，版本>=3.8
 2. `clone`本项目：`git clone https://github.com/boxie123/BilibiliEmojiDownload.git`并进入项目文件夹`cd BilibiliEmojiDownload`
