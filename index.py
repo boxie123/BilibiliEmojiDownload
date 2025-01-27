@@ -38,9 +38,9 @@ if __name__ == "__main__":
         start = AllInfo[-1]["id"]
     else:
         start = 0
-    end = max(start + 1000, 7700)
+    end = max(start + 100, 7650)
 
-    for i in range(start, end + 1):
+    for i in range(start + 1, end + 1):
         emojiInfo = getEmojiInfo(client, i)
         if emojiInfo:
             AllInfo.append(emojiInfo)
