@@ -26648,5 +26648,15 @@
     "id": 7628,
     "name": "蔷薇之花动态表情包",
     "item": 1736866961001
+  },
+  {
+    "id": 7629,
+    "name": "雨中Neo（充电）",
+    "item": "https://www.bilibili.com/h5/upower/index?navhide=1&mid=9404404&prePage=emote"
+  },
+  {
+    "id": 7630,
+    "name": "霹雳布袋戲（充电）",
+    "item": "https://www.bilibili.com/h5/upower/index?navhide=1&mid=2799412&prePage=emote"
   }
 ]
