@@ -26723,5 +26723,20 @@
     "id": 7643,
     "name": "小兔糕toto（充电）",
     "item": "https://www.bilibili.com/h5/upower/index?navhide=1&mid=3493262805437197&prePage=emote"
+  },
+  {
+    "id": 7644,
+    "name": "魔女之夜动态",
+    "item": 1738509602001
+  },
+  {
+    "id": 7645,
+    "name": "魔女之夜静态",
+    "item": 1738509640001
+  },
+  {
+    "id": 7646,
+    "name": "跃动青春",
+    "item": 1737368371001
   }
 ]
