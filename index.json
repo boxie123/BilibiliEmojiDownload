@@ -28358,5 +28358,15 @@
     "id": 8042,
     "name": "北柚香",
     "item": 1741167844001
+  },
+  {
+    "id": 8043,
+    "name": "果汁猫meme（充电）",
+    "item": "https://www.bilibili.com/h5/upower/index?navhide=1&mid=3546742343600468&prePage=emote"
+  },
+  {
+    "id": 8044,
+    "name": "龙的日记表情包",
+    "item": 1745846926001
   }
 ]
