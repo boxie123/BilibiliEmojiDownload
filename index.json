@@ -28823,5 +28823,35 @@
     "id": 8147,
     "name": "小丸喵",
     "item": 1748118927001
+  },
+  {
+    "id": 8148,
+    "name": "红小豆动态表情包",
+    "item": 1747208750001
+  },
+  {
+    "id": 8149,
+    "name": "红小豆静态表情包",
+    "item": 1747208291001
+  },
+  {
+    "id": 8150,
+    "name": "纱奈Sana·动态表情",
+    "item": 1747320787001
+  },
+  {
+    "id": 8151,
+    "name": "蜡笔小新樱花物语",
+    "item": 1745998371001
+  },
+  {
+    "id": 8152,
+    "name": "哔哩哔哩足球赛事（充电）",
+    "item": "https://www.bilibili.com/h5/upower/index?navhide=1&mid=1665228366&prePage=emote"
+  },
+  {
+    "id": 8153,
+    "name": "友利Mori（充电）",
+    "item": "https://www.bilibili.com/h5/upower/index?navhide=1&mid=279704683&prePage=emote"
   }
 ]
