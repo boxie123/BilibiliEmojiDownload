@@ -28928,5 +28928,25 @@
     "id": 8171,
     "name": "猫鸟聚会",
     "item": 1736980431001
+  },
+  {
+    "id": 8172,
+    "name": "竹声声声（充电）",
+    "item": "https://www.bilibili.com/h5/upower/index?navhide=1&mid=5508366&prePage=emote"
+  },
+  {
+    "id": 8173,
+    "name": "四川柯基菌（充电）",
+    "item": "https://www.bilibili.com/h5/upower/index?navhide=1&mid=37780021&prePage=emote"
+  },
+  {
+    "id": 8174,
+    "name": "迷路的牙刷第一弹",
+    "item": 1747207871001
+  },
+  {
+    "id": 8175,
+    "name": "最喜欢派蒙了表情包",
+    "item": 1748205753001
   }
 ]
