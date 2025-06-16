@@ -29163,5 +29163,25 @@
     "id": 8220,
     "name": "文宝表情包",
     "item": 1749452984001
+  },
+  {
+    "id": 8221,
+    "name": "芋圆·动态表情包",
+    "item": 1748510449001
+  },
+  {
+    "id": 8222,
+    "name": "灰音Haine收藏集动态表情",
+    "item": 1749494546001
+  },
+  {
+    "id": 8223,
+    "name": "灰音Haine收藏集",
+    "item": 1742983043001
+  },
+  {
+    "id": 8224,
+    "name": "工腾纯（充电）",
+    "item": "https://www.bilibili.com/h5/upower/index?navhide=1&mid=16441215&prePage=emote"
   }
 ]
