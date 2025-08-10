@@ -30358,5 +30358,15 @@
     "id": 8516,
     "name": "夏季表情包",
     "item": 1754121082001
+  },
+  {
+    "id": 8517,
+    "name": "世界庐2（充电）",
+    "item": "https://www.bilibili.com/h5/upower/index?navhide=1&mid=1011011666&prePage=emote"
+  },
+  {
+    "id": 8518,
+    "name": "高达UC动态表情包",
+    "item": 1754560123001
   }
 ]
