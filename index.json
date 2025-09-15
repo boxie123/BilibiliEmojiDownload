@@ -31253,5 +31253,30 @@
     "id": 8718,
     "name": "浪浪山",
     "item": 1757408548001
+  },
+  {
+    "id": 8719,
+    "name": "食贫道（充电）",
+    "item": "https://www.bilibili.com/h5/upower/index?navhide=1&mid=39627524&prePage=emote"
+  },
+  {
+    "id": 8720,
+    "name": "早凉·动态表情包",
+    "item": 1756273364001
+  },
+  {
+    "id": 8721,
+    "name": "芝恩㱏（充电）",
+    "item": "https://www.bilibili.com/h5/upower/index?navhide=1&mid=475118489&prePage=emote"
+  },
+  {
+    "id": 8722,
+    "name": "MyGO",
+    "item": 1757675318001
+  },
+  {
+    "id": 8723,
+    "name": "有希小酱4弹表情包",
+    "item": 1757669717001
   }
 ]
