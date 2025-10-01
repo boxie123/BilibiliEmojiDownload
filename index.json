@@ -31663,5 +31663,20 @@
     "id": 8808,
     "name": "阿狸 售卖月亮",
     "item": 1758715611001
+  },
+  {
+    "id": 8809,
+    "name": "梦境遐想曲表情包",
+    "item": 1757652321001
+  },
+  {
+    "id": 8810,
+    "name": "雾雨威表情包",
+    "item": 1757579794001
+  },
+  {
+    "id": 8811,
+    "name": "桃园夫特ball（充电）",
+    "item": "https://www.bilibili.com/h5/upower/index?navhide=1&mid=1084377951&prePage=emote"
   }
 ]
