@@ -32368,5 +32368,15 @@
     "id": 8962,
     "name": "农场物语",
     "item": 1755164937001
+  },
+  {
+    "id": 8964,
+    "name": "老王来了柆（充电）",
+    "item": "https://www.bilibili.com/h5/upower/index?navhide=1&mid=286936215&prePage=emote"
+  },
+  {
+    "id": 8967,
+    "name": "溪璐Shiro表情包",
+    "item": 1761631274001
   }
 ]
