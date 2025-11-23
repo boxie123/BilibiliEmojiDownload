@@ -32678,5 +32678,15 @@
     "id": 9037,
     "name": "道诡异仙",
     "item": 1761636669001
+  },
+  {
+    "id": 9038,
+    "name": "美味花蘑菇（充电）",
+    "item": "https://www.bilibili.com/h5/upower/index?navhide=1&mid=14327878&prePage=emote"
+  },
+  {
+    "id": 9039,
+    "name": "Phigros",
+    "item": 1763521224001
   }
 ]
