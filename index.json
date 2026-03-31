@@ -35058,5 +35058,20 @@
     "id": 9602,
     "name": "听风Tinphoon（充电）",
     "item": "https://www.bilibili.com/h5/upower/index?navhide=1&mid=352810&prePage=emote"
+  },
+  {
+    "id": 9603,
+    "name": "Morfonica表情包",
+    "item": 1774596118001
+  },
+  {
+    "id": 9604,
+    "name": "池泽绮梦动态表情",
+    "item": 1770633745001
+  },
+  {
+    "id": 9605,
+    "name": "鱿惑倾心表情包",
+    "item": 1773310803001
   }
 ]
