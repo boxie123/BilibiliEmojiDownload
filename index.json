@@ -35378,5 +35378,15 @@
     "id": 9699,
     "name": "PetroleumPioneer（充电）",
     "item": "https://www.bilibili.com/h5/upower/index?navhide=1&mid=2003729455&prePage=emote"
+  },
+  {
+    "id": 9700,
+    "name": "萌萌企鹅",
+    "item": 1776750180001
+  },
+  {
+    "id": 9701,
+    "name": "夜航星",
+    "item": 1776929729001
   }
 ]
