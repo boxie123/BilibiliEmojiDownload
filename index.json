@@ -35443,5 +35443,20 @@
     "id": 9714,
     "name": "霄奈子装扮第一弹·表情包",
     "item": 1777281218001
+  },
+  {
+    "id": 9717,
+    "name": "大雨塔塔（充电）",
+    "item": "https://www.bilibili.com/h5/upower/index?navhide=1&mid=477726187&prePage=emote"
+  },
+  {
+    "id": 9718,
+    "name": "我叫沈林动画（充电）",
+    "item": "https://www.bilibili.com/h5/upower/index?navhide=1&mid=29540177&prePage=emote"
+  },
+  {
+    "id": 9719,
+    "name": "奥里卡豆（充电）",
+    "item": "https://www.bilibili.com/h5/upower/index?navhide=1&mid=275529727&prePage=emote"
   }
 ]
