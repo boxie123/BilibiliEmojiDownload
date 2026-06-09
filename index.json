@@ -36198,5 +36198,20 @@
     "id": 9885,
     "name": "破碎的祈愿表情包",
     "item": 1780645391001
+  },
+  {
+    "id": 9886,
+    "name": "FsF表情包",
+    "item": 1780479569001
+  },
+  {
+    "id": 9887,
+    "name": "麻薯波比呀（充电）",
+    "item": "https://www.bilibili.com/h5/upower/index?navhide=1&mid=703186600&prePage=emote"
+  },
+  {
+    "id": 9888,
+    "name": "小狐做个好梦",
+    "item": 1779897553001
   }
 ]
