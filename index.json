@@ -37243,5 +37243,25 @@
     "id": 10113,
     "name": "HERETICS·无畏契约",
     "item": 1784282841001
+  },
+  {
+    "id": 10114,
+    "name": "极光子（充电）",
+    "item": "https://www.bilibili.com/h5/upower/index?navhide=1&mid=2099739&prePage=emote"
+  },
+  {
+    "id": 10115,
+    "name": "六二二表情包",
+    "item": 1784278138001
+  },
+  {
+    "id": 10116,
+    "name": "二阶堂真红表情包",
+    "item": 1784441340001
+  },
+  {
+    "id": 10117,
+    "name": "蒜偷小狗八（充电）",
+    "item": "https://www.bilibili.com/h5/upower/index?navhide=1&mid=3493090000111868&prePage=emote"
   }
 ]
