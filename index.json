@@ -39118,5 +39118,45 @@
     "id": 10505,
     "name": "米线待定",
     "item": 1791631783001
+  },
+  {
+    "id": 10506,
+    "name": "阿雪爱看文（充电）",
+    "item": "https://www.bilibili.com/h5/upower/index?navhide=1&mid=3691007564581579&prePage=emote"
+  },
+  {
+    "id": 10507,
+    "name": "一点小柿 动态表情包",
+    "item": 1793615143001
+  },
+  {
+    "id": 10508,
+    "name": "一点小柿 静态表情包",
+    "item": 1792478564001
+  },
+  {
+    "id": 10509,
+    "name": "VITALITY CS 2026 蜂群集结表情包",
+    "item": 1793191298001
+  },
+  {
+    "id": 10510,
+    "name": "霁乐毅（充电）",
+    "item": "https://www.bilibili.com/h5/upower/index?navhide=1&mid=3493264680291002&prePage=emote"
+  },
+  {
+    "id": 10511,
+    "name": "爱吃螃蟹的猫",
+    "item": 1782348238001
+  },
+  {
+    "id": 10512,
+    "name": "大聪看电影（充电）",
+    "item": "https://www.bilibili.com/h5/upower/index?navhide=1&mid=253350665&prePage=emote"
+  },
+  {
+    "id": 10513,
+    "name": "零纪元表情包",
+    "item": 1793688095001
   }
 ]
