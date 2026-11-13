@@ -39423,5 +39423,45 @@
     "id": 10566,
     "name": "初生表情包",
     "item": 1782463477001
+  },
+  {
+    "id": 10567,
+    "name": "BLGBin（充电）",
+    "item": "https://www.bilibili.com/h5/upower/index?navhide=1&mid=325315550&prePage=emote"
+  },
+  {
+    "id": 10568,
+    "name": "Rookie丶青果（充电）",
+    "item": "https://www.bilibili.com/h5/upower/index?navhide=1&mid=14924348&prePage=emote"
+  },
+  {
+    "id": 10569,
+    "name": "BLGON（充电）",
+    "item": "https://www.bilibili.com/h5/upower/index?navhide=1&mid=398692774&prePage=emote"
+  },
+  {
+    "id": 10570,
+    "name": "BLGXun（充电）",
+    "item": "https://www.bilibili.com/h5/upower/index?navhide=1&mid=594325484&prePage=emote"
+  },
+  {
+    "id": 10571,
+    "name": "BLGKnight（充电）",
+    "item": "https://www.bilibili.com/h5/upower/index?navhide=1&mid=3546597304568306&prePage=emote"
+  },
+  {
+    "id": 10572,
+    "name": "BLG_Viper（充电）",
+    "item": "https://www.bilibili.com/h5/upower/index?navhide=1&mid=3690988432263598&prePage=emote"
+  },
+  {
+    "id": 10573,
+    "name": "Flandre_李炫君（充电）",
+    "item": "https://www.bilibili.com/h5/upower/index?navhide=1&mid=3707017086634964&prePage=emote"
+  },
+  {
+    "id": 10574,
+    "name": "断手猫030",
+    "item": 1793891528001
   }
 ]
